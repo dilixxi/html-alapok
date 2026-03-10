@@ -23,27 +23,40 @@
 
 /* --- ALAP BEÁLLÍTÁSOK --- */
 * {
-    margin: 0;
-    padding: 0;
+    margin: 5px;
+    padding:15px;
     box-sizing: border-box;
 }
 
 body {
     /* Háttérszín */
-    background-color: #ffffff;
+    background-color: #e7c1e1;
     /* Betűtípus */
-    font-family: sans-serif;
+    
+
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing:15px;
+  font-weight: 300;
+  font-style: normal;
+ 
+ text-shadow:5px 5px 10px;color: rgb(236, 219, 229);
+
+
     /* Betűszín */
-    color: #333333;
+    color: #ced3eb;
     /* Sormagasság */
-    line-height: 1.6;
+    line-height: 0,4s;
+    background: #c42769;
+background: radial-gradient(circle, rgb(224, 70, 134) 0%, rgb(78, 58, 82) 100%);
+
 }
 
 
 /* --- OLDAL KERET --- */
 .oldal-keret {
     /* Az egész oldal kerete / szélessége */
-}
+    ;
+} 
 
 
 /* --- FEJLÉC --- */
@@ -53,6 +66,14 @@ body {
 
 .fooldal-cim {
     /* Főcím stílusa */
+    text-align: center;
+    color: azure;
+    text-shadow: hwb(335 56% 13%) 5px 5px 7px;
+    font-family: monospace;
+   font-size:45px;
+   font-weight: 400px;
+   margin: 19px;
+   padding: 10px;
 }
 
 .kiemeles {
@@ -61,6 +82,10 @@ body {
 
 .alcim {
     /* Alcím stílusa */
+    text-align: center;
+    color:azure ;
+    text-shadow: hwb(335 56% 13%);
+    font-weight: 150px;
 }
 
 
